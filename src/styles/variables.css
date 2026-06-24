@@ -1,0 +1,63 @@
+/* Bright Public School Design Tokens */
+
+:root {
+  /* Brand Palette (Extracted from BPS logo) */
+  --color-navy: #0B1B3D;
+  --color-navy-dark: #061126;
+  --color-navy-light: #162E5C;
+  --color-orange: #D9531E;
+  --color-orange-dark: #B54014;
+  --color-orange-light: #E86F3E;
+  --color-gold: #C5A059;
+  --color-gold-dark: #9E7D3F;
+  --color-gold-light: #DDC28D;
+  --color-ivory: #FAF8F5;
+  --color-ivory-dark: #F2EDE4;
+  --color-white: #FFFFFF;
+  --color-charcoal: #2D2D2D;
+  --color-charcoal-light: #5A5A5A;
+  --color-charcoal-muted: #8E8E8E;
+
+  /* Typography */
+  --font-heading: 'Cormorant Garamond', Georgia, serif;
+  --font-body: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+
+  /* Responsive Spacing Scale (Apple-inspired) */
+  --space-xxs: 0.25rem;   /* 4px */
+  --space-xs: 0.5rem;     /* 8px */
+  --space-sm: 1rem;       /* 16px */
+  --space-md: 1.5rem;     /* 24px */
+  --space-lg: 2.5rem;     /* 40px */
+  --space-xl: 4rem;       /* 64px */
+  --space-xxl: 6.5rem;    /* 104px */
+  --space-xxxl: 10rem;    /* 160px */
+
+  /* Radius */
+  --radius-xs: 4px;
+  --radius-sm: 8px;
+  --radius-md: 16px;
+  --radius-lg: 24px;
+  --radius-xl: 32px;
+  --radius-full: 9999px;
+
+  /* Premium Multi-layered Shadows (3D depth without clutter) */
+  --shadow-sm: 0 2px 8px rgba(11, 27, 61, 0.04);
+  --shadow-md: 0 8px 24px rgba(11, 27, 61, 0.06), 0 2px 6px rgba(11, 27, 61, 0.02);
+  --shadow-lg: 0 16px 40px rgba(11, 27, 61, 0.08), 0 4px 12px rgba(11, 27, 61, 0.03);
+  --shadow-xl: 0 24px 64px rgba(11, 27, 61, 0.12), 0 8px 24px rgba(11, 27, 61, 0.05);
+  --shadow-inset: inset 0 2px 4px rgba(11, 27, 61, 0.06);
+
+  /* Transitions */
+  --transition-fast: 0.2s cubic-bezier(0.25, 1, 0.5, 1);
+  --transition-smooth: 0.4s cubic-bezier(0.25, 1, 0.5, 1);
+  --transition-slow: 0.8s cubic-bezier(0.25, 1, 0.5, 1);
+  --transition-bounce: 0.5s cubic-bezier(0.34, 1.56, 0.64, 1);
+
+  /* Z-Index Hierarchy */
+  --z-negative: -1;
+  --z-normal: 1;
+  --z-dropdown: 100;
+  --z-sticky: 200;
+  --z-modal: 500;
+  --z-lightbox: 1000;
+}
